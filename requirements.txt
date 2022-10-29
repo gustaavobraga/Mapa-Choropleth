@@ -1,5 +1,0 @@
-pandas==1.5.1
-plotly==5.11.0
-jsonschema==4.16.0
-streamlit==1.14.0
-json5~=0.9.6
