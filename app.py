@@ -3,7 +3,6 @@ import plotly.graph_objs as go
 import json
 import plotly.express as px
 import streamlit as st
-from copy import deepcopy
 
 st.title('Mapa de calor da população brasileira por etinia')
 
@@ -14,8 +13,8 @@ def load_data(path):
 
 
 # LOAD ENERGY DATA
-df_raw = load_data(path="Populacao_por_etnia_raca.csv")
-df = deepcopy(df_raw)
+df = load_data(path="Populacao_por_etnia_raca.csv")
+
 
 
 #LOAD GEIJASON FILE
