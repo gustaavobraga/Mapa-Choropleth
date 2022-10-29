@@ -1,7 +1,4 @@
-from turtle import title
-import numpy as np
 import pandas as pd
-import plotly.offline as py
 import plotly.graph_objs as go
 import json
 import plotly.express as px
@@ -9,8 +6,6 @@ import streamlit as st
 from copy import deepcopy
 
 st.title('Mapa de calor da população brasileira por etinia')
-
-
 
 @st.cache
 def load_data(path):
